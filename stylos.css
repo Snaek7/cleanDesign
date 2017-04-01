@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  width: 850px;
+  height: 650px;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.left-section {
+  height: 100%;
+  width: 65%;
+  background-color: white;
+  float: left;
+  border-radius: 10px 0px 0px 10px;
+  z-index: -1;
+}
+
+.top-subtitle {
+  font-weight: 600;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+  margin-top: 8em;
+  margin-left: 6em;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 2.7em;
+  margin-left: 1.3em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.bottom-subtitle {
+  padding-left: 5.5em;
+  font-weight: 400;
+  color: #cccccc;
+  line-height: 2em;
+  margin-bottom: 3.2em;
+  margin-top: 2.4em;
+  padding-right: 8em;
+
+}
+
+.new-york {
+  border-radius: 0px 10px 10px 0px;
+  float: right;
+  width: 35%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button {
+  padding: 1.1em;
+  width: 380px;
+  background-color: white;
+  border: solid 2px #F1F1F1;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.button-large {
+  -webkit-box-shadow: 0px 8px 8px -1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 8px 8px -1px rgba(0,0,0,0.13);
+  box-shadow: 0px 8px 8px -1px rgba(0,0,0,0.13);
+}
+
+.button-text {
+ padding: 0px;
+ box-sizing: border-box;
+ color: grey;
+ text-transform: uppercase;
+}
+
+hr {
+  margin-top: 4em;
+  border: 1px solid #f1f1f1;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer h5 {
+  font-weight: 400;
+  color: grey;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #65bf65;
+}
+
+.fa-twitter {
+  color: #4099FF;
+  font-size: 1.7em;
+  float: left;
+  margin-top: 0.6em;
+}
+
+
+.fa-google-plus {
+  color: #FF0000;
+  font-size: 1.7em;
+  float: left;
+  margin-top: 0.6em;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  font-size: 1.7em;
+  float: left;
+  margin-top: 0.6em;
+}
